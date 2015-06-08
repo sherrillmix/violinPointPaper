@@ -1,0 +1,37 @@
+\begin{thebibliography}{4}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Hintze and Nelson(1998)}]{Hintze1998}
+Hintze JL, Nelson RD (1998).
+\newblock \enquote{{V}iolin plots: a box plot-density trace synergism.}
+\newblock \emph{The American Statistician}, \textbf{52}(2), 181--184.
+\newblock \doi{10.1080/00031305.1998.10480559}.
+
+\bibitem[{Kampstra(2008)}]{Kampstra2008}
+Kampstra P (2008).
+\newblock \enquote{{B}eanplot: {A} boxplot alternative for visual comparison of
+  distributions.}
+\newblock \emph{Journal of Statistical Software}, \textbf{28}(1), 1--9.
+\newblock \urlprefix\url{http://www.jstatsoft.org/v28/c01}.
+
+\bibitem[{McGill \emph{et~al.}(1978)McGill, Tukey, and Larsen}]{McGill1978}
+McGill R, Tukey JW, Larsen WA (1978).
+\newblock \enquote{{V}ariations of box plots.}
+\newblock \emph{The American Statistician}, \textbf{32}(1), 12--16.
+\newblock \doi{10.2307/2683468}.
+
+\bibitem[{Wilkinson(1999)}]{Wilkinson1999}
+Wilkinson L (1999).
+\newblock \enquote{{D}ot plots.}
+\newblock \emph{The American Statistician}, \textbf{53}(3), 276--281.
+\newblock \doi{10.2307/2686111}.
+
+\end{thebibliography}

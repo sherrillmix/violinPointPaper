@@ -1,0 +1,80 @@
+\documentclass[codesnippet]{jss}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% declarations for jss.cls %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% almost as usual
+\author{Scott Sherrill-Mix\\University of Pennsylvania\And 
+        Erik L. Clarke\\University of Pennsylvania}
+\title{[[PackageName]]: Quasirandomness Improves Visualization of Dense Data [[work]]}
+
+%% for pretty printing and a nice hypersummary also set:
+\Plainauthor{Scott Sherrill-Mix, Erik L. Clarke} %% comma-separated
+\Plaintitle{[[PackageName]]: Quasirandomness Improves Visualization of Dense Data [[work]]} %% without formatting
+\Shorttitle{[[Short title]]} %% a short title (if necessary)
+
+%% an abstract and keywords
+\Abstract{
+  Here should be the abstract.
+}
+\Keywords{violin plot, distribution, kernel density, ggplot, \proglang{R}}
+\Plainkeywords{violin plot, distribution, kernel density, ggplot, R} %% without formatting
+%% at least one keyword must be supplied
+
+%% publication information
+%% NOTE: Typically, this can be left commented and will be filled out by the technical editor
+%% \Volume{50}
+%% \Issue{9}
+%% \Month{June}
+%% \Year{2012}
+%% \Submitdate{2012-06-04}
+%% \Acceptdate{2012-06-04}
+
+%% The address of (at least) one author should be given
+%% in the following format:
+\Address{
+  Scott Sherrill-Mix\\
+  Department of Microbiology\\
+  Perelman School of Medicine\\
+  University of Pennsylvania\\
+  Philadelphia, Pennsylvania, USA\\
+  E-mail: \email{shescott@mail.med.upenn.edu}\\
+}
+%% It is also possible to add a telephone and fax number
+%% before the e-mail in the following format:
+%% Telephone: +43/512/507-7103
+%% Fax: +43/512/507-2851
+
+%% for those who use Sweave please include the following line (with % symbols):
+%% need no \usepackage{Sweave.sty}
+
+%% end of declarations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%% include your article here, just as usual
+%% Note that you should use the \pkg{}, \proglang{} and \code{} commands.
+
+\section{Introduction}
+The display of univariate data is a [[busy field]]. Display choices include using plots such as histograms, stem-and-leaf plots, boxplots, densities. For small- to moderately-sized datasets, [[need to reference graphpad]]. \citet{Wilkinson1999} symmetric or stacked dot plots (histogram-like). Violin plots \citep{Hintze1998}. bean plots \citep{Kampstra2008}. 
+%http://graphpad.com/support/faq/what-to-do-when-points-are-superimposed-in-grouped-scatter-graphs/
+
+Variable width square root of group size scaled width with many variability measures, e.g. standard error \citep{McGill1978}.
+
+
+\section{Comparisons of visualizations}
+beeswarm (multiple options), violin, boxplot, jitter on various data
+
+\section{Examples of usage}
+some nice examples of just our own stuff
+
+
+\section{Conclusions}
+
+\section{Acknowledgements}
+
+\bibliography{refs} % This is the filename of the bibtex bibliography file (it has to be in the same directory as the main LaTeX file)
+
+\end{document}
